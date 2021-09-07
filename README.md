@@ -6,8 +6,9 @@
 - basic OOP concepts
 
 ## Code Snippets
+### `.../robot/subsystems/DriveTrain.java`
 ```java
-//initialize motors
+// initialize drivetrain motors
 public void initDriveTrain()
 {
   leftMotor1 = new TalonSRX(RobotMap.LEFT_TALON_1);
@@ -26,6 +27,7 @@ public void initDriveTrain()
 }
 ```
 
+### `.../robot/RobotMap.java`
 ```java
 package frc.robot;
 
